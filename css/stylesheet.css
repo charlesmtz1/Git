@@ -1,0 +1,24 @@
+p, li {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#GitLogo {
+    margin-left:25%;                
+}
+
+#Flujo_trabajo {
+    width:500px;
+    margin-left: 10%;
+}
+
+#col-center {
+    background: lightgray;
+    height: 850px;
+}
+
+.jumbotron {
+    background: orangered;
+    color: white;
+    text-align:center;
+}

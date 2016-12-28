@@ -14,11 +14,20 @@
     </head>
     <body>
         <div class="jumbotron">
-            <h1><img src="img/logo2.png" alt="Git logo" height="80px">&nbsp&nbsp Curso de Git 2016</h1>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
+                    <img src="img/logo2.jpg" alt="Git + GitHub Logo" height="100px">
+                </div>
+                <div class="col-lg-7">
+                    <h1>Curso de Git 2016</h1>
+                </div> 
+            </div>
         </div>
+
         <div class="container-fluid">
             <div class="row" id="seccion1">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="color:white">
                     <h2>Que es Git?</h2>
                     <br>
                     <p>Es un Sistema de control de versiones. Nos registra los cambios realizados en un archivo o en un conjunto de ellos. Git nos permite 
@@ -34,8 +43,11 @@
                 </div>               
             </div>
 
-            <div class="row">
-                <div class="col-lg-4" id="col-center">
+            <div class="row" id="seccion2">
+                <div class="col-lg-6">
+                    <img src="img/smile.png" alt="smile" id="GitLogo">
+                </div>
+                <div class="col-lg-6" style="color:black;">
                     <h2>Ventajas de Git</h2>
                     <br>
                     <p>Una de las ventajas de utilizar Git es poder desplazarnos entre versiones para detección de errores si estos se encuentran en la 
@@ -47,8 +59,14 @@
                 </div>    
             </div>
 
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row" id="seccion3">
+                <div class="col-lg-12">
+                    <img src="img/hero.svg" alt="Tres estados de Git" height="400px" style="margin-left:15%;">
+                </div>
+            </div>
+
+            <div class="row" id="seccion1" style="color:white">
+                <div class="col-lg-6">
                     <h2>Los tres estados de Git</h2>
                     <br>
                     <ul>
@@ -57,21 +75,28 @@
                             archivos no están listos por el momento.</li>
                         <li><strong>Repository:</strong> Aquí es el registro de todo nuestro proyecto (Commit).</li>
                     </ul>
-                    <br><br>
+                </div>
+                <div class="col-lg-6">
                     <img src="img/Git4.jpg" alt="Flujo de trabajo Git" id="Flujo_trabajo">
                 </div>
             </div>
                 
-            <div class="row">
-                <div class="col-lg-4" id="col-center">
+            <div class="row" id="seccion2">
+                <div class="col-lg-6">
+                    <img src="img/kitty.png" alt="Github Logo" id="GitLogo">
+                </div>
+                <div class="col-lg-6">
                     <h2>Ramas de Git</h2>
                     <br>
                     <p>Una de las funciones más importantes al momento de trabajar con Git es la posibilidad de crear versiones “alternas” de nuestros proyectos a partir 
                         de un commit específico. A estas versiones alternas se les conoce como ramas y se pueden crear tantas como se requieran en el proyecto, permitiendo 
                         así interactuar con diferentes códigos y cambios dentro de nuestro mismo proyecto sin afectar la rama principal.</p>
-                    <img src="img/kitty.png" alt="Github Logo" id="GitLogo">
                 </div>
-                <div class="col-lg-4">
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
                     <h2>Resumen</h2>
                     <br>
                     <p>Al trabajar con ramas nos facilita mucho el manejo del código de nuestro proyecto para realizar modificaciones experimentales y manejo de errores en 

@@ -1,7 +1,6 @@
 p, li {
     text-align: justify;
     font-size: 20px;
-    color: white;
 }
 
 #GitLogo {
@@ -20,28 +19,31 @@ p, li {
 }
 
 .jumbotron {
-    background: orangered;
-    color: white;
+    background: white;
+    color: black;
     text-align:center;
-}
-
-h1, h2, h3, h4 {
-    color: white;
 }
 
 #seccion1{
     background-image: url("../img/wall1.jpg");
     margin-top:-30px;
-    padding: 50px 20px 50px 150px;
+    padding: 100px 20px 100px 150px;
+    background-attachment: fixed;
+    background-position: left top;
+}
+
+#seccion2{
+    background: whitesmoke;
+    margin-top:-30px;
+    padding: 100px 150px 100px 20px;
     background-attachment: fixed;
     background-position: left top;
     background-repeat: repeat-x;
 }
 
-#seccion2{
-    background-image: url("../img/wall2.jpg");
+#seccion3{
     margin-top:-30px;
-    padding: 50px 150px 50px 20px;
+    padding: 100px 150px 100px 20px;
     background-attachment: fixed;
     background-position: left top;
     background-repeat: repeat-x;

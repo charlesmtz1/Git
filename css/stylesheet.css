@@ -19,14 +19,13 @@ p, li {
 }
 
 .jumbotron {
-    background: white;
+    background: navajowhite;
     color: black;
     text-align:center;
 }
 
 #seccion1{
     background-image: url("../img/wall1.jpg");
-    margin-top:-30px;
     padding: 100px 20px 100px 150px;
     background-attachment: fixed;
     background-position: left top;
